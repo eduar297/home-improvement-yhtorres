@@ -3,15 +3,7 @@
     "name": "home-improvement",
     "version": "1.0",
     "scripts": {
-        "start":"node server.js",
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
-        "build:assets": "node scripts/build-assets.js",
-        "build:pug": "node scripts/build-pug.js",
-        "build:scripts": "node scripts/build-scripts.js",
-        "build:scss": "node scripts/build-scss.js",
-        "clean": "node scripts/clean.js",
-        "start-dev": "npm run build && node scripts/start.js",
-        "start-dev:debug": "npm run build && node scripts/start-debug.js"
+        "start":"node server.js"
     },
     "description": "...todo",
     "keywords": [
